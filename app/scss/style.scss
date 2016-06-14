@@ -1,0 +1,174 @@
+@import 'base';
+@import 'tipography';
+
+/*************************************
+GERAL
+*************************************/
+
+.padding-zero {
+	padding-left: 0;
+}
+
+.padding-left {
+	padding-left: 25px;
+}
+
+.social-networks {
+	margin: 0;
+	height: 30px;
+	background: $cor-base;
+	padding-top: 5px;
+}
+
+#social-buttons {
+	padding-right: 0;
+	i {
+		color: #fff;
+		margin-left: 5px;
+	}
+}
+
+.container {
+	max-width: 950px;
+}
+
+.row-header {
+	padding-top: 15px;
+	margin-bottom: 20px;
+	.col-sm-3 {
+		padding-top: 22px;
+		padding-bottom: 20px;
+	}
+}
+
+#navbar-inside{
+	li {
+		a {
+			color: #fff;
+		}
+		a:hover {
+			color: #ED3237;
+		}
+	}
+}
+
+.navbar-nav {
+	font-family: $font-padrao;
+	font-weight: 700;
+	text-transform: uppercase;
+	
+}
+
+.navbar-border {
+	background: $cor-base; border-bottom: 3px solid $cor-secundaria;
+}
+
+
+
+#myNavbar {
+	max-width: 950px;
+}
+
+.item {
+	background: #000;
+	img {
+		opacity: 0.6;
+	}
+}
+
+.carousel-caption {
+	p {
+		font-size: 18px;
+		text-shadow: 3px 2px 1px #000;
+		font-family: $font-padrao;
+	}
+}
+
+.panel-body {
+	h3 {
+		font-family: $font-padrao;
+		margin-top: 0;
+	}
+}
+
+.page-header {
+	font-family: $font-padrao;
+	color: $cor-secundaria;
+}
+
+.panel-default>.panel-heading {
+	background: $cor-base;
+	color: #fff;
+}
+
+.portfolio-item {
+	h3 {
+		a {
+			font-weight: bold;
+			font-family: $font-padrao;
+			color: $cor-base;
+		}
+	}
+	p {
+		font-size: 16px;
+	}
+}
+
+.banner {
+	margin-top: 30px;
+}
+
+.videos {
+
+}
+
+.agenda {
+
+}
+
+.footer {
+	height: 60px;
+	padding: 10px 0;
+	background: $cor-base;
+	color: #fff;
+	ul {		
+		li {
+			a {
+				color: #fff;
+			}
+		}
+	}
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.img-responsive {
+	background: #000;
+	border-radius: 0.3em;
+}
+.img-responsive:hover {
+	opacity: 0.8;
+}
+
+.list-group {
+	list-style: none;
+	padding-left: 5px;
+	li {
+		font-size: 18px;
+		a {
+			font-family: $font-padrao;
+		}
+	}
+}
